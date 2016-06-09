@@ -70,7 +70,7 @@ public class SeleniumMain {
         // Find the text input element by its name
         WebElement element = driver.findElement(By.tagName("h2"));
         String result = element.getText();
-        if (result.contains("What's Up Walter!The even number is:")){
+        if (result.contains("Hey Everyone!The even number is:")){
         	System.out.println("It's working!");
         	System.out.println(result);
         	System.exit(0);
